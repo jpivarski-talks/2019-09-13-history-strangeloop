@@ -56,276 +56,349 @@
 
 % START START START START START START START START START START START START START
 
-\begin{frame}{Prehistory}
-\Large
-\vspace{0.5 cm}
-\begin{center}
-We can start anywhere (Antikythera mechanism? Ishango bone?), but let's start with the Hollerith machine.
-\end{center}
-\end{frame}
+%% \begin{frame}{Prehistory}
+%% \Large
+%% \vspace{0.5 cm}
+%% \begin{center}
+%% We can start anywhere (Antikythera mechanism? Ishango bone?), but let's start with the Hollerith machine.
+%% \end{center}
+%% \end{frame}
 
-\begin{frame}{The U.S.\ Census's problem}
-\large
+%% \begin{frame}{The U.S.\ Census's problem}
+%% \large
+%% \vspace{0.35 cm}
+%% The U.S.\ does a census every 10 years. The 1880 census took 8 years to process.
+%% \begin{center}
+%% $\longrightarrow$ Big data problem!
+%% \end{center}
+
+%% \vspace{0.15 cm}
+%% Held a competition for a new method; winner was 10$\times$ faster than the rest:
+
+%% \begin{center}
+%% \includegraphics[height=5.3 cm]{hollerith.jpg}\hspace{1 cm}\includegraphics[height=5.3 cm]{1908_Hollerith_Machine.jpg}
+%% \end{center}
+%% \end{frame}
+
+%% \begin{frame}{Census records on punch cards, which filtered electrical contacts}
+%% \vspace{0.17 cm}
+%% \begin{columns}
+%% \column{0.5\linewidth}
+%% \includegraphics[width=\linewidth]{1890_Census_Hollerith_Pantograph_Punching_Machine_Sci_Amer.jpg}
+
+%% \column{0.5\linewidth}
+%% \includegraphics[width=\linewidth]{1890_Hollerith_Circuit-Closing_Press_OM.jpg}
+%% \end{columns}
+%% \end{frame}
+
+%% \begin{frame}{Wired to a machine that opens a door for each matching pattern}
+%% \vspace{0.25 cm}
+%% \begin{center}
+%% \includegraphics[width=0.45\linewidth]{1890_Hollerith_Sorting_Machine_OM.jpg}
+%% \end{center}
+%% \end{frame}
+
+%% \begin{frame}{It was an SQL machine: 3 basic clauses of most SQL queries}
+%% \vspace{0.25 cm}
+%% \begin{center}
+%% \includegraphics[width=0.75\linewidth]{hh-tabulator.pdf}
+%% \end{center}
+
+%% \mbox{ } \hfill \mintinline{sql}{SELECT name WHERE literate GROUP BY marital_status} \hfill \mbox{ }
+%% \end{frame}
+
+%% \begin{frame}{Origin of business computing}
+%% \Large
+%% \vspace{0.5 cm}
+%% Herman Hollerith founded a company selling these machines, which, after a series of mergers, became International Business Machines.
+
+%% \small
+%% \vspace{1 cm}
+%% \textcolor{blue}{\url{https://www.officemuseum.com/data_processing_machines.htm}}
+
+%% \vspace{0.25 cm}
+%% \textcolor{blue}{\url{https://www.ibm.com/ibm/history/exhibits/builders/builders_hollerith.html}}
+%% \end{frame}
+
+%% \begin{frame}{Physics interest in computing came later}
+%% \Large
+%% \vspace{0.5 cm}
+%% Nuclear/particle physics was a tabletop science before the Manhattan Project (nuclear bomb).
+
+%% \normalsize
+%% \vspace{0.75 cm}
+%% \hfill\mbox{\includegraphics[height=3.3 cm]{bigsci-lblstaff.jpg}\hspace{-0.7 cm}}
+
+%% \vspace{-3.8 cm}
+%% \textcolor{darkblue}{\large Exceptions:}
+%% \begin{itemize}
+%% \item Ernest Lawrence's group at Berkeley (invented accelerators)
+
+%% employed dozens---disparaged as ``Berkeleitis.''
+
+%% \textcolor{blue}{\small\href{https://history.aip.org/history/exhibits/lawrence/epa.htm}{\tt https://history.aip.org/history/exhibits/\\lawrence/epa.htm}}
+
+%% \item Cryogenics was big science in the early 20th century, but
+
+%% didn't require much number-crunching.
+%% \end{itemize}
+
+%% \Large
+%% \vspace{0.5 cm}
+%% Physics and computing don't converge until the 1940's.
+%% \end{frame}
+
+%% \begin{frame}{\only<1>{Physicists got into computers when they became general-purpose}\only<2>{Computers got general-purpose when physicists got involved}}
+%% \vspace{0.5 cm}
+
+%% \begin{columns}
+%% \column{0.3\linewidth}
+%% \includegraphics[width=\linewidth]{presper-and-mauchly.jpg}
+
+%% \column{0.7\linewidth}
+%% 1944: John Mauchly (physicist) and J.\ Presper Eckert (electrical engineer) designed ENIAC to replace mechanical computers for ballistics.
+
+%% \vspace{0.25 cm}
+%% ENIAC was one of the first computers \textcolor{darkblue}{driven by machine code instructions}, stored as a program in memory.
+%% \end{columns}
+
+%% \vspace{0.25 cm}
+%% \begin{columns}
+%% \column{0.65\linewidth}
+%% 1945: John von Neumann learned of their work and suggested using it for nuclear simulations (H-bomb).
+
+%% \vspace{0.25 cm}
+%% His internal memo describing ENIAC's stored programs was leaked; now known as ``Von Neumann architecture.''
+
+%% \vspace{0.25 cm}
+%% Los Alamos group led by Nicholas Metropolis, developed Monte Carlo techniques for physics problems.
+%% \column{0.35\linewidth}
+%% \includegraphics[width=\linewidth]{neumann_oppie.jpg}
+%% \end{columns}
+%% \end{frame}
+
+%% \begin{frame}{Alternatives: the FERMIAC}
+
+
+%% \begin{center}
+%% \includegraphics[height=5.5 cm]{FERMIAC.jpg}\hspace{0.25 cm}\includegraphics[height=5.5 cm]{STAN_ULAM_HOLDING_THE_FERMIAC.jpg}
+%% \end{center}
+
+%% \small
+%% \vspace{0.5 cm}
+%% \textcolor{blue}{\url{https://www.tandfonline.com/doi/abs/10.1080/23324309.2018.1514312}}
+
+%% \end{frame}
+
+%% \begin{frame}{{\bf M}etropolis {\bf A}nd {\bf N}eumann {\bf I}nvent {\bf A}wful {\bf C}ontraption}
+%% \small
+%% \vspace{0.25 cm}
+
+%% \includegraphics[height=5 cm]{metropolis.jpg}\hspace{0.1 cm}\includegraphics[height=5 cm]{1952-Maniac-1.jpg}
+
+%% \vspace{0.25 cm}
+%% \begin{columns}
+%% \column{1.1\linewidth}
+%% \textcolor{blue}{\url{https://www.atomicheritage.org/history/computing-and-manhattan-project}}
+
+%% \vspace{0.1 cm}
+%% \textcolor{blue}{\url{https://www.manhattanprojectvoices.org/oral-histories/nicholas-metropolis-interview}}
+
+%% \vspace{0.1 cm}
+%% \textcolor{blue}{\url{https://www.jstor.org/stable/20025423}}
+
+%% \vspace{0.1 cm}
+%% \textcolor{blue}{\url{https://books.google.com/books?id=qB819m2ibUQC}}
+%% \end{columns}
+%% \end{frame}
+
+%% \begin{frame}{The actual programming was performed by these six women}
+%% \vspace{-0.4 cm}
+%% \begin{columns}[t]
+%% \column{0.15\linewidth}
+%% \begin{center}
+%% \includegraphics[width=\linewidth]{Kay-McNulty.jpg}
+
+%% Kathleen McNulty
+%% \end{center}
+
+%% \column{0.15\linewidth}
+%% \begin{center}
+%% \includegraphics[width=\linewidth]{Fran-Bilas.jpg}
+
+%% Frances Bilas
+%% \end{center}
+
+%% \column{0.15\linewidth}
+%% \begin{center}
+%% \includegraphics[width=\linewidth]{Betty-Jennings.jpg}
+
+%% Betty Jean Jennings
+%% \end{center}
+
+%% \column{0.15\linewidth}
+%% \begin{center}
+%% \includegraphics[width=\linewidth]{Ruth-Lichterman.jpg}
+
+%% Ruth Lichterman
+%% \end{center}
+
+%% \column{0.15\linewidth}
+%% \begin{center}
+%% \includegraphics[width=\linewidth]{Betty-Snyder.jpg}
+
+%% Elizabeth Snyder
+%% \end{center}
+
+%% \column{0.15\linewidth}
+%% \begin{center}
+%% \includegraphics[width=\linewidth]{Marlyn-Meltzer.jpg}
+
+%% Marlyn Wescoff
+%% \end{center}
+%% \end{columns}
+
+%% \scriptsize
+%% \vspace{0.3 cm}
+%% Kathy Kleiman's research:
+
+%% \vspace{0.1 cm}
+%% \textcolor{blue}{\url{http://eniacprogrammers.org/eniac-programmers-project/}}
+
+%% \vspace{0.2 cm}
+%% There are many secondary-source articles like this one:
+
+%% \vspace{0.1 cm}
+%% \textcolor{blue}{\url{http://mentalfloss.com/article/53160/meet-refrigerator-ladies-who-programmed-eniac}}
+
+%% \vspace{0.2 cm}
+%% This is a fantastic article; an overview of women in computing until the 1980's:
+
+%% \vspace{0.1 cm}
+%% \textcolor{blue}{\url{https://www.nytimes.com/2019/02/13/magazine/women-coding-computer-programming.html}}
+
+%% \vspace{0.2 cm}
+%% First assembly language invented by Kathleen Booth:
+
+%% \vspace{0.1 cm}
+%% \textcolor{blue}{\url{http://bobmackay.com/Booth/Booth.html}}
+%% \textcolor{blue}{\url{http://www.computinghistory.org.uk/det/32489/Kathleen-Booth/}}
+%% \end{frame}
+
+%% \begin{frame}[fragile]{Eckert-Mauchly Computer Corporation $\to$ Remington Rand}
+%% \vspace{0.5 cm}
+
+%% \begin{columns}
+%% \column{0.7\linewidth}
+%% Mauchly and Eckert ``went into industry'' selling computers; the first one (UNIVAC) to the U.S.\ Census.
+
+%% \vspace{0.5 cm}
+%% 1950: Short Code, the first executable high-level language: \\ a transliterated interpreter of mathematical formulas.
+%% \begin{center}
+%% \small
+%% \vspace{-0.1 cm}
+%% \begin{minipage}{0.8\linewidth}
+%% \begin{verbatim}
+%% math: X3 =  (  X1 +  Y1 )  /  X1 * Y1
+%% code: X3 03 09 X1 07 Y1 02 04 X1   Y1
+%% \end{verbatim}
+%% \end{minipage}
+
+%% \vspace{0.2 cm}
+%% \normalsize
+%% 50$\times$ slower than machine code because it was interpreted.
+%% \end{center}
+
+%% \vspace{0.25 cm}
+%% 1952--1959: At Remington Rand, Grace Hopper developed a series of {\it compiled} languages, ultimately COBOL.
+
+%% \vspace{0.25 cm}
+%% Meanwhile, IBM developed FORTRAN: 1954--1957.
+
+%% \small
+%% \vspace{0.25 cm}
+%% \textcolor{blue}{\url{http://www.historyofinformation.com/detail.php?entryid=839}}
+
+%% \column{0.3\linewidth}
+%% \includegraphics[width=\linewidth]{Univac_I_at_Census_Bureau_with_two_operators.jpg}
+
+%% \includegraphics[width=\linewidth]{Grace_Hopper_and_UNIVAC.jpg}
+%% \end{columns}
+%% \end{frame}
+
+%% \begin{frame}{The physics analysis problem}
+%% \large
+%% \vspace{0.35 cm}
+
+%% Particle collision/decay images are rich datasets. Analyzers need to infer ``who decayed to whom'' and measure the curvature of tracks, which yields momentum.
+
+%% \begin{center}
+%% \includegraphics[height=6 cm]{omega-minus-1.png}\hspace{0.2 cm}\includegraphics[height=6 cm]{omega-minus-2.png}
+%% \end{center}
+%% \end{frame}
+
+\begin{frame}{Fully manual $\to$ human/computer $\to$ fully automated}
 \vspace{0.35 cm}
-The U.S.\ does a census every 10 years. The 1880 census took 8 years to process.
-\begin{center}
-$\longrightarrow$ Big data problem!
-\end{center}
+\begin{columns}[b]
+\column{0.55\linewidth}
+\begin{columns}[b]
+\column{0.4\linewidth}
+\includegraphics[height=2.9 cm]{franckenstein-2.jpg}
 
-\vspace{0.15 cm}
-Held a competition for a new method; winner was 10$\times$ faster than the rest:
+\column{0.47\linewidth}
+\$2M bubble chamber, \$0.2M IBM 650
 
-\begin{center}
-\includegraphics[height=5.3 cm]{hollerith.jpg}\hspace{1 cm}\includegraphics[height=5.3 cm]{1908_Hollerith_Machine.jpg}
-\end{center}
-\end{frame}
-
-\begin{frame}{Census records on punch cards, which filtered electrical contacts}
-\vspace{0.17 cm}
-\begin{columns}
-\column{0.5\linewidth}
-\includegraphics[width=\linewidth]{1890_Census_Hollerith_Pantograph_Punching_Machine_Sci_Amer.jpg}
-
-\column{0.5\linewidth}
-\includegraphics[width=\linewidth]{1890_Hollerith_Circuit-Closing_Press_OM.jpg}
-\end{columns}
-\end{frame}
-
-\begin{frame}{Wired to a machine that opens a door for each matching pattern}
-\vspace{0.25 cm}
-\begin{center}
-\includegraphics[width=0.45\linewidth]{1890_Hollerith_Sorting_Machine_OM.jpg}
-\end{center}
-\end{frame}
-
-\begin{frame}{It was an SQL machine: 3 basic clauses of most SQL queries}
-\vspace{0.25 cm}
-\begin{center}
-\includegraphics[width=0.75\linewidth]{hh-tabulator.pdf}
-\end{center}
-
-\mbox{ } \hfill \mintinline{sql}{SELECT name WHERE literate GROUP BY marital_status} \hfill \mbox{ }
-\end{frame}
-
-\begin{frame}{Origin of business computing}
-\Large
-\vspace{0.5 cm}
-Herman Hollerith founded a company selling these machines, which, after a series of mergers, became International Business Machines.
-
-\small
-\vspace{1 cm}
-\textcolor{blue}{\url{https://www.officemuseum.com/data_processing_machines.htm}}
-
-\vspace{0.25 cm}
-\textcolor{blue}{\url{https://www.ibm.com/ibm/history/exhibits/builders/builders_hollerith.html}}
-\end{frame}
-
-\begin{frame}{Physics interest in computing came later}
-\Large
-\vspace{0.5 cm}
-Nuclear/particle physics was a tabletop science before the Manhattan Project (nuclear bomb).
-
-\normalsize
-\vspace{0.75 cm}
-\hfill\mbox{\includegraphics[height=3.3 cm]{bigsci-lblstaff.jpg}\hspace{-0.7 cm}}
-
-\vspace{-3.8 cm}
-\textcolor{darkblue}{\large Exceptions:}
-\begin{itemize}
-\item Ernest Lawrence's group at Berkeley (invented accelerators)
-
-employed dozens---disparaged as ``Berkeleitis.''
-
-\textcolor{blue}{\small\href{https://history.aip.org/history/exhibits/lawrence/epa.htm}{\tt https://history.aip.org/history/exhibits/\\lawrence/epa.htm}}
-
-\item Cryogenics was big science in the early 20th century, but
-
-didn't require much number-crunching.
-\end{itemize}
-
-\Large
-\vspace{0.5 cm}
-Physics and computing don't converge until the 1940's.
-\end{frame}
-
-\begin{frame}{\only<1>{Physicists got into computers when they became general-purpose}\only<2>{Computers got general-purpose when physicists got involved}}
-\vspace{0.5 cm}
-
-\begin{columns}
-\column{0.3\linewidth}
-\includegraphics[width=\linewidth]{presper-and-mauchly.jpg}
-
-\column{0.7\linewidth}
-1944: John Mauchly (physicist) and J.\ Presper Eckert (electrical engineer) designed ENIAC to replace mechanical computers for ballistics.
-
-\vspace{0.25 cm}
-ENIAC was one of the first computers \textcolor{darkblue}{driven by machine code instructions}, stored as a program in memory.
+\vspace{0.2 cm}
+Jack Franck's ``Franckenstein'' converted positions marked along tracks
 \end{columns}
 
-\vspace{0.25 cm}
-\begin{columns}
-\column{0.65\linewidth}
-1945: John von Neumann learned of their work and suggested using it for nuclear simulations (H-bomb).
+into numbers on punch cards for analysis.
 
-\vspace{0.25 cm}
-His internal memo describing ENIAC's stored programs was leaked; now known as ``Von Neumann architecture.''
+\vspace{0.2 cm}
+\scriptsize
+\textcolor{blue}{\url{https://www2.lbl.gov/Science-Articles/Research-Review/Magazine/1981/81fchp6.html}}
 
-\vspace{0.25 cm}
-Los Alamos group led by Nicholas Metropolis, developed Monte Carlo techniques for physics problems.
-\column{0.35\linewidth}
-\includegraphics[width=\linewidth]{neumann_oppie.jpg}
-\end{columns}
-\end{frame}
+\vspace{0.2 cm}
+\includegraphics[height=2.9 cm]{franckenstein-1.jpg}\hfill\includegraphics[height=2.9 cm]{franckenstein-4.jpg}
 
-\begin{frame}{Alternatives: the FERMIAC}
-
-
-\begin{center}
-\includegraphics[height=5.5 cm]{FERMIAC.jpg}\hspace{0.25 cm}\includegraphics[height=5.5 cm]{STAN_ULAM_HOLDING_THE_FERMIAC.jpg}
-\end{center}
-
-\small
-\vspace{0.5 cm}
-\textcolor{blue}{\url{https://www.tandfonline.com/doi/abs/10.1080/23324309.2018.1514312}}
-
-\end{frame}
-
-\begin{frame}{{\bf M}etropolis {\bf A}nd {\bf N}eumann {\bf I}nvent {\bf A}wful {\bf C}ontraption}
-\small
-\vspace{0.25 cm}
-
-\includegraphics[height=5 cm]{metropolis.jpg}\hspace{0.1 cm}\includegraphics[height=5 cm]{1952-Maniac-1.jpg}
-
-\vspace{0.25 cm}
-\begin{columns}
-\column{1.1\linewidth}
-\textcolor{blue}{\url{https://www.atomicheritage.org/history/computing-and-manhattan-project}}
-
-\vspace{0.1 cm}
-\textcolor{blue}{\url{https://www.manhattanprojectvoices.org/oral-histories/nicholas-metropolis-interview}}
-
-\vspace{0.1 cm}
-\textcolor{blue}{\url{https://www.jstor.org/stable/20025423}}
-
-\vspace{0.1 cm}
-\textcolor{blue}{\url{https://books.google.com/books?id=qB819m2ibUQC}}
-\end{columns}
-\end{frame}
-
-\begin{frame}{The actual programming was performed by these six women}
-\vspace{-0.4 cm}
-\begin{columns}[t]
-\column{0.15\linewidth}
-\begin{center}
-\includegraphics[width=\linewidth]{Kay-McNulty.jpg}
-
-Kathleen McNulty
-\end{center}
-
-\column{0.15\linewidth}
-\begin{center}
-\includegraphics[width=\linewidth]{Fran-Bilas.jpg}
-
-Frances Bilas
-\end{center}
-
-\column{0.15\linewidth}
-\begin{center}
-\includegraphics[width=\linewidth]{Betty-Jennings.jpg}
-
-Betty Jean Jennings
-\end{center}
-
-\column{0.15\linewidth}
-\begin{center}
-\includegraphics[width=\linewidth]{Ruth-Lichterman.jpg}
-
-Ruth Lichterman
-\end{center}
-
-\column{0.15\linewidth}
-\begin{center}
-\includegraphics[width=\linewidth]{Betty-Snyder.jpg}
-
-Elizabeth Snyder
-\end{center}
-
-\column{0.15\linewidth}
-\begin{center}
-\includegraphics[width=\linewidth]{Marlyn-Meltzer.jpg}
-
-Marlyn Wescoff
-\end{center}
-\end{columns}
+\column{0.55\linewidth}
+Madeleine Isenberg describes being a ``scanner.''
 
 \scriptsize
-\vspace{0.3 cm}
-Kathy Kleiman's research:
-
 \vspace{0.1 cm}
-\textcolor{blue}{\url{http://eniacprogrammers.org/eniac-programmers-project/}}
+\textcolor{blue}{\url{http://www.physics.ucla.edu/marty/HighEnergyPhysics.pdf}}
 
 \vspace{0.2 cm}
-There are many secondary-source articles like this one:
-
-\vspace{0.1 cm}
-\textcolor{blue}{\url{http://mentalfloss.com/article/53160/meet-refrigerator-ladies-who-programmed-eniac}}
-
-\vspace{0.2 cm}
-This is a fantastic article; an overview of women in computing until the 1980's:
-
-\vspace{0.1 cm}
-\textcolor{blue}{\url{https://www.nytimes.com/2019/02/13/magazine/women-coding-computer-programming.html}}
-
-\vspace{0.2 cm}
-First assembly language invented by Kathleen Booth:
-
-\vspace{0.1 cm}
-\textcolor{blue}{\url{http://bobmackay.com/Booth/Booth.html}}
-\textcolor{blue}{\url{http://www.computinghistory.org.uk/det/32489/Kathleen-Booth/}}
-\end{frame}
-
-\begin{frame}[fragile]{Eckert-Mauchly Computer Corporation $\to$ Remington Rand}
-\vspace{0.5 cm}
-
-\begin{columns}
-\column{0.7\linewidth}
-Mauchly and Eckert ``went into industry'' selling computers; the first one (UNIVAC) to the U.S.\ Census.
-
-\vspace{0.5 cm}
-1950: Short Code, the first executable high-level language: \\ a transliterated interpreter of mathematical formulas.
-\begin{center}
-\small
-\vspace{-0.1 cm}
-\begin{minipage}{0.8\linewidth}
-\begin{verbatim}
-math: X3 =  (  X1 +  Y1 )  /  X1 * Y1
-code: X3 03 09 X1 07 Y1 02 04 X1   Y1
-\end{verbatim}
-\end{minipage}
-
-\vspace{0.2 cm}
-\normalsize
-50$\times$ slower than machine code because it was interpreted.
-\end{center}
-
-\vspace{0.25 cm}
-1952--1959: At Remington Rand, Grace Hopper developed a series of {\it compiled} languages, ultimately COBOL.
-
-\vspace{0.25 cm}
-Meanwhile, IBM developed FORTRAN: 1954--1957.
-
-\small
-\vspace{0.25 cm}
-\textcolor{blue}{\url{http://www.historyofinformation.com/detail.php?entryid=839}}
-
-\column{0.3\linewidth}
-\includegraphics[width=\linewidth]{Univac_I_at_Census_Bureau_with_two_operators.jpg}
-
-\includegraphics[width=\linewidth]{Grace_Hopper_and_UNIVAC.jpg}
+\includegraphics[width=\linewidth]{franckenstein-3.jpg}
 \end{columns}
 \end{frame}
 
+\begin{frame}{Processing events thousands of times faster}
+\vspace{0.35 cm}
+\begin{columns}
+\column{0.6\linewidth}
+1959 paper on the software infrastructure: {\tt PANG}, {\tt KICK}, {\tt EXAMIN}, {\tt DRIVEL}
+
+\small
+\vspace{0.2 cm}
+\textcolor{blue}{\url{http://inspirehep.net/record/919917/files/HEACC59_575-583.pdf}}
+
+\normalsize
+\vspace{0.4 cm}
+{\it Image and Logic: A Material Culture of Microphysics} by Peter Galison:
+
+\small
+\vspace{0.2 cm}
+\textcolor{blue}{\url{https://books.google.com/books?id=6Gcu92U8CwYC\&lpg=PA373\&ots=8YV5cPePE6\&dq=Franckenstein\%20bubble\&pg=PA373\#v=onepage\&q=Franckenstein\&f=false}}
+
+\normalsize
+\vspace{0.4 cm}
+{\it Discovering Alvarez: Selected Works of Luis W. Alvarez}: that plot $\longrightarrow$
+
+\column{0.45\linewidth}
+\includegraphics[width=\linewidth]{scaleup.png}
+\end{columns}
+\end{frame}
 
 
 
